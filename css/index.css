@@ -1,0 +1,141 @@
+nav{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70%;
+    height: 70%;
+}
+.listContent{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+.name1{
+    position: relative;
+}
+.name2{
+    position: relative;
+}
+.name3{
+    position: relative;
+}
+ul{
+    list-style-type: none;
+}
+
+.innerlist1{
+    position: absolute;
+    top: 42px;
+    left: -20px;
+    display: block;
+    background-color: black;
+    width: 150px;
+    display: none;
+}
+.name1:hover .innerlist1{
+    display: block;
+}
+
+.innerlist2{
+    position: absolute;
+    top: 42px;
+    left: -20px;
+    display: block;
+    background-color: black;
+    width: 150px;
+    display: none;
+}
+.name2:hover .innerlist2{
+    display: block;
+}
+.innerlist3{
+    position: absolute;
+    top: 42px;
+    left: -20px;
+    display: block;
+    background-color: black;
+    width: 150px;
+    display: none;
+}
+.name3:hover .innerlist3{
+    display: block;
+}
+
+
+
+.cardCont{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardCont div{
+    margin-top: 20px;
+    width: 25%;
+    height: 80%;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cardCont div p{
+    text-align: justify;
+    padding: 0 10px 0 10px;
+}
+
+.barCont{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.barCont div{
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    
+}
+#div1{
+    background-color:royalblue;
+    border-radius: 30px 0 0 30px;
+}
+#div1:hover{
+    background-color:rgb(52, 70, 121);
+}
+#div2{
+    background-color:rgb(71, 202, 219);
+}
+#div2:hover{
+    background-color:rgb(27, 120, 133);
+}
+#div3{
+    background-color:rgb(128, 201, 33);
+    border-radius: 0 30px 30px 0;
+}
+#div3:hover{
+    background-color:rgb(99, 143, 42);
+}
+
+@media (max-width:500px) {
+    
+}
