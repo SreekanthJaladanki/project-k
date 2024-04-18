@@ -5,84 +5,180 @@
 }
 
 .nav{
-    width: 90%;
+    width: 85%;
     margin: auto;
-    height: 100px;
+    height: 60px;
     /* background-color: rgb(192, 188, 188); */
+    /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: larger;
-    font-weight: bold;
+    margin-top: 15px;
+    font-size: medium;
 }
+
+.first{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo{
-    width: 10%;
-    height: 80%;
+    width: 150px;
 }
 .logo img{
     width: 100%;
-    height: 100%;
 }
-.login{
-    width: 120px;
-    height: 50%;
-    background-color: black;
+
+.last{
+    width: 35%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    border-radius: 30px ;
-}
-.login:hover{
-    background-color: gray;
-}
-.home{
-    position: relative;
-}
-.nav ul{
-    list-style: none;
-    text-align: center;
-}
-.innerlist1{
-    position: absolute;
-    top: 59px;
-    /* left: -10px; */
-    display: block;
-    background-color: rgb(177, 173, 173);
-    width: 150px;
-    display: none;
-    
-}
-.home:hover .innerlist1{
-    display: block;
-}
-.services{
-    position: relative;
-}
-.innerlist2{
-    position: absolute;
-    top: 59px;
-    left: -20px;
-    display: block;
-    background-color: rgb(177, 173, 173);
-    width: 150px;
-    display: none;
-}
-.services:hover .innerlist2{
-    display: block;
+    justify-content: space-between;
 }
 .help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: gainsboro;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.login:hover{
+    background-color: rgb(155, 146, 146);
+}
+
+.first ul{
+    list-style-type: none;
+}
+.first ul li{
+    margin: 7px;
+    text-align: center;
+}
+.home{
+    width: 90px;
+    padding: 10px;
     position: relative;
 }
-.innerlist3{
+.home:hover{
+    border-bottom: 2px solid blue;
+}
+.innerlist1{
+    width: 120px;
+    height: 110px;
     position: absolute;
-    top: 59px;
-    left: -20px;
-    display: block;
-    background-color: rgb(177, 173, 173);
-    width: 150px;
+    top: 42px;
+    left: -15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
     display: none;
+    z-index: 5;
+    background-color: white;
+    color: #0cc0df;
 }
-.help:hover .innerlist3{
+.innerlist1 li:hover{
+    background-color: #0cc0df;
+    color: black;
+}
+.home:hover .innerlist1
+{
     display: block;
+} 
+.about{
+    width: 90px;
+    padding: 10px;
+    position: relative;
 }
+.about:hover{
+    border-bottom: 2px solid blue;
+}
+.innerlist2{
+    width: 120px;
+    height: 110px;
+    left: -15px;
+    position: absolute;
+    top: 42px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    display: none;
+    background-color: #fff;
+}
+.about:hover .innerlist2
+{
+    display: block;
+} 
+
+.services{
+    width: 100px;
+    padding: 10px;
+    position: relative;
+}
+.services:hover{
+    border-bottom: 2px solid blue;
+}
+.innerlist3{
+    width: 120px;
+    height: 110px;
+    left: -15px;
+    position: absolute;
+    top: 42px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    display: none;
+    background-color: #fff;
+}
+.services:hover .innerlist3
+{
+    display: block;
+} 
+
+
+.main{
+    width: 90%;
+    height: 70vh;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+.left{
+    width: 63%;
+    height: 100%;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+.left h1{
+    font-size: 3rem;
+}
+
+.buttonCont{
+    width: 85%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.buttonCont div{
+    height: 30px;
+    border: 1px solid #0cc0df;
+    padding: 18px 28px 18px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main .left .buttonCont .btn:hover{
+    background-color: #0cc0df;
+    color: blue;
+}
+
+
