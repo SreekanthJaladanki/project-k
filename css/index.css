@@ -2,19 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: Poppins;
+    src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&family=Sansita:ital@1&display=swap");
+    /* font-weight: 400; */
+    font-style: normal;
+}
+.header{
+    width: 100%;
+    height: 85px;
+    background-color: black;
 }
 
 .nav{
     width: 85%;
     margin: auto;
-    height: 60px;
-    /* background-color: rgb(192, 188, 188); */
-    /* border: 1px solid; */
+    height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-    font-size: medium;
+    font-family: Poppins;
+    color: #0cc0df;
+    letter-spacing: 0.1rem;
+    /* font-weight: 900; */
 }
 
 .first{
@@ -42,16 +54,19 @@
 }
 
 .login{
-    background-color: gainsboro;
-    width: 75px;
+    background-color: #0cc0df   ;
+    width: 80px;
     height: 35px;
     display: flex;
+    font-size: small;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    color: black;
 }
 .login:hover{
-    background-color: rgb(155, 146, 146);
+    background-color: white;
+    color: #0cc0df;
 }
 
 .first ul{
@@ -65,9 +80,10 @@
     width: 90px;
     padding: 10px;
     position: relative;
+    border-bottom: 2px solid black;
 }
 .home:hover{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid white;
 }
 .innerlist1{
     width: 120px;
@@ -80,6 +96,7 @@
     z-index: 5;
     background-color: white;
     color: #0cc0df;
+    border-radius: 4px;
 }
 .innerlist1 li:hover{
     background-color: #0cc0df;
@@ -106,6 +123,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,.3);
     display: none;
     background-color: #fff;
+    border-radius: 4px;
 }
 .about:hover .innerlist2
 {
@@ -121,14 +139,24 @@
     border-bottom: 2px solid blue;
 }
 .innerlist3{
-    width: 120px;
-    height: 110px;
-    left: -15px;
+    width: 60rem;
+    height: 20rem;
+    left: -205px;
     position: absolute;
-    top: 42px;
-    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    top: 68px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
     display: none;
     background-color: #fff;
+    border-radius: 4px;
+
+}
+.listCont{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 900;
 }
 .services:hover .innerlist3
 {
@@ -141,7 +169,7 @@
     height: 70vh;
     /* border: 1px solid; */
     margin: auto;
-    margin-top: 80px;
+    margin-top: 90px;
     display: flex;
     position: relative;
     z-index: -1;
@@ -161,10 +189,11 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
+ /* border: 2px solid ; */
     margin-top: 30px;
 }
 
-.buttonCont div{
+.buttonCont .btn{
     height: 30px;
     border: 1px solid #0cc0df;
     padding: 18px 28px 18px 28px;
@@ -175,10 +204,222 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    /* background-color: black; */
+    
 }
-.main .left .buttonCont .btn:hover{
+/* .main .left .buttonCont .btn:hover{
     background-color: #0cc0df;
     color: blue;
+} */
+.buttonCont .btn:hover {
+    background-color: #808586;
+    color: white;
+}
+
+.right{
+    width: 37%;
+    height: 100%;
+}
+.imgCont{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+}
+.imgCont img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.cardSEction{
+    width: 100%;
+    height: 180vh;
+    background-color: #F3F5FD;
+    padding-top: 20px;
+}
+.cardSEction .textCont{
+    width: 40%;
+    height: 18vh;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 60px;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: serif;
+    text-align: center;
+}
+.firstline{
+    color: #9868EF;
+}
+
+.cardCont{
+    width: 73%;
+    height: 140vh;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 25px;
+    row-gap: 30px;
+}
+
+.cardCont div{
+    height: 60vh;
+    border: 1px solid black;
+}
+
+
+
+/* footer */
+.footerContainer{
+    background-color: black;
+    width: 100%;
+    color: #0cc0df;
+    font-family: Poppins;
+}
+
+.zomatoContainer{
+    padding: 3% 0;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.zomatoContainer .zomatologo{
+    width: 75%;
+    /* border: 1px solid; */
+}
+
+.zomatoContainer .footerLogo{
+    width: 20%;
+    /* border: 1px solid; */
+}
+.zomatoContainer .zomatoFlagBtn{
+    border: 1px solid white;
+    /* color: #B5B5B5; */
+    border-radius: 5px;
+    width: 9%;
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+    align-items: center;
+}
+.zomatoContainer .zomatoEnglishBtn{
+    border: 1px solid white;
+    /* color: #B5B5B5; */
+    border-radius: 5px;
+    width: 9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+}
+.zomatoFlagBtn img{
+    width: 17%;
+    height: 2.8vh;
+}
+
+.footerListContainer{
+    /* padding: 2%; */
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.footerListContainer .col ul{
+    list-style-type: none;
+}
+.footerListContainer .col h1{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+.col ul li{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 5%;
+    font-size: 0.9rem;
+}
+.col h1{
+    font-size: large;
+}
+.col .socialMedia{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.col .socialMedia div{
+    background: black;
+    width:1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col .socialMedia div i{
+    /* color: white; */
+    color: #0cc0df;
+}
+.col .socialMedia .appStore{
+    width: 100%;
+    background-color: #1f157a;
+}
+.col h1{
+    color: #0cc0df;
+}
+.appStore{
+    /* background-color: #0cc0df; */
+    color: white;
+    /* border: 1px solid; */
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.appStore i{
+    /* border: 1px solid; */
+    width: 2rem;
+    font-size: 1.8rem;
+}
+
+.appStore div p:first-child{
+    font-size: 0.7rem;
+}
+.googlePlay{
+    /* background-color: #203A4F; */
+    color: white;
+    /* border: 1px solid; */
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+.googlePlay div:first-child{
+    width: 2rem;
+}
+.googlePlay div p:first-child{
+    font-size: 0.7rem;
+}
+.googlePlay div img{
+    width: 100%;
+}
+hr{
+    width: 82%;
+    margin: auto;
+}
+.lastPara{
+    padding: 2% 0; 
+    width: 82%;
+    margin: auto;
+    font-size: 0.9rem;
+    color: white;
 }
 
 
