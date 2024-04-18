@@ -51,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid black;font-weight: bold;
 }
 
 .login{
@@ -84,14 +85,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: ;
 }
 .home:hover{
     border-bottom: 2px solid #0cc0df;
-    background-color: #0cc0df;
-    color: white;
-    border-radius: 5px;
-    padding: 3px 10px 3px 10px;
+    
 }
 .innerlist1{
     width: 120px;
@@ -114,6 +111,8 @@
     width: 90px;
     padding: 10px;
     position: relative;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 .about:hover{
     border-bottom: 2px solid #0cc0df;;
@@ -138,6 +137,8 @@
     width: 100px;
     padding: 10px;
     position: relative;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 .services:hover{
     border-bottom: 2px solid #0cc0df;;
