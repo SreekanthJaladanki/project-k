@@ -63,6 +63,25 @@
     background-color: white;
     color: #0cc0df;
 }
+.login2{
+    background-color: #0cc0df   ;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    /* font-size: 0.5rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: black;
+    margin-top: 41px;
+    font-family: Poppins;
+  
+   
+}
+.login2 .h1tagnew{
+    font-size: 1rem;
+    font-weight: 500;
+}
 .home{
     width: 90px;
     padding: 10px;
@@ -211,6 +230,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    color: black;
 }
 
 
@@ -237,7 +257,7 @@
     /* border: 1px solid rebeccapurple; */
 }
 .left h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .buttonCont{
     width: 85%;
@@ -245,7 +265,7 @@
     display: flex;
     justify-content: space-between;
     /* border: 2px solid ; */
-    margin-top: 30px;
+    margin-top: 32px; 
     align-items: center;
 }
 .buttonCont div{
