@@ -93,6 +93,7 @@
 }
 .home:hover{
     border-bottom: 2px solid #0cc0df;
+    color: white;
     
 } 
 .about{
@@ -103,7 +104,8 @@
     border-bottom: 2px solid black;
 }
 .about:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
  
 .services{
@@ -114,7 +116,8 @@
     border-bottom: 2px solid black;
 }
 .services:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 .innerlist3{
     width: 60rem;
@@ -195,7 +198,8 @@
     font-weight: bold;
 }
 .contact:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 
 .notes{
@@ -207,7 +211,8 @@
     font-weight: bold;
 }
 .notes:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 .notes .innerlist4{
     width: 15rem;
@@ -220,17 +225,22 @@
     background-color: #fff;
     border-radius: 4px;
     z-index: 10;
+    margin-left: 45px;
+   
 }
 .notesCont{
     width: 80%;
     height: 90%;
     margin: auto;
     margin-top: 6px;
+   
+   
 }
 .notesCont ul li{
     list-style-type: none;
     height: 36px;
     /* text-align: center; */
+   
 }
 .notesCont ul li a{
     text-decoration: none;
@@ -238,6 +248,9 @@
     /* justify-content: center; */
     align-items: center;
     color: black;
+    margin-left: -23px;
+    
+    
 }
 
 
