@@ -50,10 +50,10 @@
 
 .login{
     background-color: #0cc0df   ;
-    width: 80px;
+    width: 89px;
     height: 35px;
     display: flex;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -78,6 +78,10 @@
     margin-left: 6px;
   
    
+}
+.login2:hover{
+    background-color: black;
+    color: white;
 }
 .login2 .h1tagnew{
     font-size: 1rem;
@@ -145,12 +149,26 @@
     width: 190px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -40px;
+   
+}
+.anchoramazon{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    
+  
+   
+}
+.anchor1{
+    text-decoration: none;
+    color: black;
 }
 .listSect{
     list-style-position: inside;
     margin-left: 19px;
     margin-top: 10px;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     width: 265px;
 }
@@ -160,20 +178,52 @@
     width: 220px;
     justify-content: space-between;
     align-items: center;
-    margin-left: -8px;
+    margin-left: -50px;
+}
+.anchormicro{
+    text-decoration: none;
+    color: black;
+}
+.anchor2{
+    text-decoration: none;
+    color: black;
 }
 .google{
     display: flex;
     width: 195px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -39px;
+}
+.anchorgoogle{
+    text-decoration: none;
+    color: black;
+}
+.anchor3{
+    text-decoration: none;
+    color: black;
 }
 .iaac{
     display: flex;
     width: 95px;
     justify-content: space-between;
     align-items: center;
-    margin-left: -7px;
+    margin-left: -15px;
+}
+.anchoriaac{
+    text-decoration: none;
+    color: black;
+    margin-left: -60px;
+}
+.anchor4{
+    text-decoration: none;
+    color: black;
+  
+}
+.heading{
+    font-size: 0.9rem;
+   
+
 }
 
 .services:hover .innerlist3
@@ -200,6 +250,10 @@
 .contact:hover{
     border-bottom: 2px solid #0cc0df;
     color: white;
+}
+.anchorcontact{
+    color:#0cc0df ;
+    text-decoration: none;
 }
 
 .notes{
@@ -248,8 +302,7 @@
     /* justify-content: center; */
     align-items: center;
     color: black;
-    margin-left: -23px;
-    
+    margin-left: 3 px;
     
 }
 
