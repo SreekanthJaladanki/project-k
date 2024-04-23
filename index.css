@@ -311,7 +311,7 @@ video{
     left: 790px;
     position: absolute;
     top: 65px;
-    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    box-shadow: 0 4px 20px  black;
     display: none;
     background-color: #fff;
     border-radius: 4px;
@@ -464,16 +464,18 @@ video{
 
 .cardCont .card{
     height: 50vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 30px;
     position: relative;
     width: 23vw;
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
   
 }
 .card .bar{
     width: 100px;
     height: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
     margin-top: 20px;
     border-radius: 30px;
     position: absolute;

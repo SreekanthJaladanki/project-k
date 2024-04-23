@@ -457,11 +457,15 @@ video{
 }
 
 .cardCont .card{
-    height: 60vh;
+    height: 63vh;
     border: 1px solid black;
     border-radius: 30px;
     position: relative;
+    width: 23vw;
+    font-family: Poppins;
+    /* box-shadow: 0 4px 20px rgba(0,0,0,.3); */
 }
+
 .card .bar{
     width: 230px;
     height: 40px;
@@ -484,7 +488,7 @@ video{
     width: 100%;
     color: #0cc0df;
     font-family: Poppins;
-    margin-top: 20rem;
+    margin-top: 40rem;
 }
 
 .zomatoContainer{
@@ -646,12 +650,19 @@ hr{
     column-gap: 1.1rem;
 }
 .section1{
-    height:60vh ;
+    height:58vh ;
     width: 49vw;
     text-align: justify;
-    /* border: 2px solid green; */
-    /* text-align: center;
-    align-content: center; */
+    /* border: 0.1px solid black; */
+    /* text-align: center; */
+    align-content: center;
+    margin-top: 0.3rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    /* justify-content: space-around; */
+    box-shadow: 0 1px 20px pink;
+    border-radius: 1rem;
+   
 }
 .section2{
     height:60vh ;
@@ -667,19 +678,30 @@ hr{
     font-size: 2.5rem;
     font-family: Poppins;
     color: #0cc0df;
-    margin-top: -0.7rem;
+    margin-top: 1rem;
+    /* border: 2px solid red; */
+    height: 10px;
+    width: 183px;
+    text-align: center;
+    align-content: center;
+    
     
 }
+.abouth1:hover{
+    color: black;
+}
+
 .section1 p{
     margin-left: 2rem;
     margin-top: 2rem;
     
     font-family: Poppins;
     color: black;
+    width: 467px;
 }
 .section2 img{
  width: 33rem;
- height: 22.5rem;
+ height: 23rem;
  border-radius: 1rem;
 }
 .login2{
@@ -692,7 +714,7 @@ hr{
     align-items: center;
     border-radius: 30px;
     color: black;
-    margin-top: 40px;
+    margin-top: 15px;
     font-family: Poppins;
     margin-left: 30px;
     font-weight: bold;
@@ -737,6 +759,26 @@ font-family: Poppins;
 }
 .col .kloudh1{
     color: white;
+}
+.cardCont{
+    width: 70%;
+    height: 140vh;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 13px;
+    row-gap: 30px;
+    margin-left: 6rem;
+}
+
+.cardCont .card{
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+    width: 27.5vw;
+  
 }
 
 
