@@ -641,12 +641,14 @@ hr{
     /* border: 2px solid purple; */
     display: flex;
     margin-top: 3rem;
-    padding: 5rem;
+    padding: 6rem;
     margin-left: -0.3rem;
+    column-gap: 1.1rem;
 }
 .section1{
     height:60vh ;
     width: 49vw;
+    text-align: justify;
     /* border: 2px solid green; */
     /* text-align: center;
     align-content: center; */
@@ -671,13 +673,13 @@ hr{
 .section1 p{
     margin-left: 2rem;
     margin-top: 2rem;
-    letter-spacing: 0.6px;
+    
     font-family: Poppins;
     color: black;
 }
 .section2 img{
- width: 35rem;
- height: 24rem;
+ width: 33rem;
+ height: 22.5rem;
  border-radius: 1rem;
 }
 .login2{
@@ -707,27 +709,34 @@ hr{
     font-weight: bold;
 }
 .content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 20rem;
     width: 85%;
-    margin-top: 14rem;
-    text-align: center;
+    margin-top: 10rem;
+    /* text-align: center; */
     align-content: center;
     font-family: Poppins;
     margin-left:6rem ;
-    text-align: start;
+    text-align: justify;
+
  
 }
 .abouth2{
-    margin-left: -3rem;
+    margin-left: 27rem;
     color: #0cc0df;
     font-size: 2.5rem;
+    /* margin: auto; */
+    font-family: Poppins;
 
 }
  .para{
 
 color: black;
 margin-top: 4rem;
+font-family: Poppins;
+}
+.col .kloudh1{
+    color: white;
 }
 
 
