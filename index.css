@@ -161,7 +161,7 @@ video{
 
 
 .innerlist3{
-    width: 60rem;
+    width: 66rem;
     height: 11rem;
     left: -205px;
     position: absolute;
@@ -641,6 +641,9 @@ hr{
     width: 82%;
     margin: auto;
     font-size: 0.9rem;
+    color: white;
+}
+.col .kloudh1{
     color: white;
 }
 
