@@ -45,24 +45,69 @@
 .logo img{
     width: 100%;
 }
+.anchorlogo{
+    text-decoration: none;
+}
 
 
 
 .login{
     background-color: #0cc0df   ;
-    width: 80px;
+    width: 89px;
     height: 35px;
     display: flex;
-    font-size: 0.9rem;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     color: black;
+    font-weight: bold;
+}
+video{
+    height: 400px;
+    width: 489px;
+    /* border: none;
+    background-color: white; */
 }
 .login:hover{
     background-color: white;
     color: #0cc0df;
 }
+.login2{
+    background-color: #0cc0df   ;
+    width: 230px;
+    height: 39px;
+    display: flex;
+    /* font-size: 0.5rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: black;
+    margin-top: 41px;
+    font-family: Poppins;
+    margin-left: 6px;
+  
+   
+}
+.login2 .anchorlearning:hover{
+    background-color: black;
+    color: white;
+
+}
+.login2 .h1tagnew{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.anchorlearning{
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
 .home{
     width: 90px;
     padding: 10px;
@@ -73,8 +118,13 @@
 }
 .home:hover{
     border-bottom: 2px solid #0cc0df;
+    color: white;
     
 } 
+.anchorhome{
+    text-decoration: none;
+    color: #0cc0df;
+}
 .about{
     width: 90px;
     padding: 10px;
@@ -83,7 +133,12 @@
     border-bottom: 2px solid black;
 }
 .about:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
+}
+.anchorabout{
+    text-decoration: none;
+    color: #0cc0df;
 }
  
 .services{
@@ -94,15 +149,17 @@
     border-bottom: 2px solid black;
 }
 .services:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 .innerlist3{
     width: 60rem;
-    height: 20rem;
+    height: 11rem;
     left: -205px;
     position: absolute;
     top: 50px;
     box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    /* box-shadow: 0 4px 20px #0cc0df; */
     display: none;
     background-color: #fff;
     border-radius: 4px;
@@ -121,29 +178,81 @@
     width: 190px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -40px;
+   
+}
+.anchoramazon{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    
+  
+   
+}
+.anchor1{
+    text-decoration: none;
+    color: black;
 }
 .listSect{
     list-style-position: inside;
-    margin-left: 20px;
+    margin-left: 19px;
     margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 265px;
 }
+
 .Microsoft{
     display: flex;
     width: 220px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -50px;
+}
+.anchormicro{
+    text-decoration: none;
+    color: black;
+}
+.anchor2{
+    text-decoration: none;
+    color: black;
 }
 .google{
     display: flex;
     width: 195px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -39px;
+}
+.anchorgoogle{
+    text-decoration: none;
+    color: black;
+}
+.anchor3{
+    text-decoration: none;
+    color: black;
 }
 .iaac{
     display: flex;
     width: 95px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -15px;
+}
+.anchoriaac{
+    text-decoration: none;
+    color: black;
+    margin-left: -60px;
+}
+.anchor4{
+    text-decoration: none;
+    color: black;
+  
+}
+.heading{
+    font-size: 0.9rem;
+   
+
 }
 
 .services:hover .innerlist3
@@ -168,7 +277,12 @@
     font-weight: bold;
 }
 .contact:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
+}
+.anchorcontact{
+    color:#0cc0df ;
+    text-decoration: none;
 }
 
 .notes{
@@ -180,11 +294,12 @@
     font-weight: bold;
 }
 .notes:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 .notes .innerlist4{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 10rem;
     left: 790px;
     position: absolute;
     top: 65px;
@@ -193,10 +308,33 @@
     background-color: #fff;
     border-radius: 4px;
     z-index: 10;
+    margin-left: 45px;
+   
 }
 .notesCont{
-    margin-left: 50px;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    margin-top: 6px;
+   
+   
 }
+.notesCont ul li{
+    list-style-type: none;
+    height: 36px;
+    /* text-align: center; */
+   
+}
+.notesCont ul li a{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+    margin-left: 3 px;
+    
+}
+
 
 .notes:hover .innerlist4
 {
@@ -204,10 +342,140 @@
 } 
 
 
+/* main */
 
 
-/* footer  */
+.mainCont{
+    width: 90%;
+    height: 70vh;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+}
+.left{
+    width: 63%;
+    height: 100%;
+    /* border: 1px solid rebeccapurple; */
+}
+.left h1{
+    font-size: 4rem;
+}
+.buttonCont{
+    width: 85%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid ; */
+    margin-top: 32px; 
+    align-items: center;
+}
+.buttonCont div{
+    height: 30px;
+    border: 1px solid #0cc0df;
+    padding: 18px 28px 18px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.buttonCont div:hover{
+    background-color: #0cc0df;
+} 
+.buttonCont .btn a{
+    text-decoration: none;
+    color: black;
+}
 
+
+.right{
+    width: 37%;
+    height: 100%;
+}
+.right .card {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    /* margin: 50px; */
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+/* Card section */
+
+.cardSEction{
+    width: 100%;
+    height: 180vh;
+    background-color: #F3F5FD;
+    padding-top: 20px;
+}
+.cardSEction .textCont{
+    width: 40%;
+    height: 18vh;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: serif;
+    text-align: center;
+}
+.firstline{
+    color: #0cc0df;
+}
+
+.cardCont{
+    width: 70%;
+    height: 140vh;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.cardCont .card{
+    height: 60vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+.card .bar{
+    width: 230px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F5FD;
+}
+
+
+/* footer */
 .footerContainer{
     background-color: black;
     width: 100%;
@@ -358,3 +626,4 @@ hr{
     font-size: 0.9rem;
     color: white;
 }
+
