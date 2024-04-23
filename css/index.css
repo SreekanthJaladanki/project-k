@@ -112,6 +112,10 @@ video{
     width: 90px;
     padding: 10px;
     position: relative;
+    /* font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal; */
+   
     font-weight: bold;
     border-bottom: 2px solid black;
     /* border: 1px solid white; */
@@ -124,6 +128,9 @@ video{
 .anchorhome{
     text-decoration: none;
     color: #0cc0df;
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; */
 }
 .about{
     width: 90px;
@@ -505,6 +512,11 @@ video{
     width: 20%;
     /* border: 1px solid; */
 }
+.logoimg{
+    
+    width: 100%;
+
+}
 .zomatoContainer .zomatoFlagBtn{
     border: 1px solid white;
     /* color: #B5B5B5; */
@@ -546,6 +558,7 @@ video{
     font-weight: 500;
     margin-bottom: 10%;
 }
+
 .col ul li{
     font-size: 1.4rem;
     line-height: 1.7rem;

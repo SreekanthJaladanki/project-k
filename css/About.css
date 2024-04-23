@@ -481,6 +481,7 @@ video{
     width: 100%;
     color: #0cc0df;
     font-family: Poppins;
+    margin-top: 20rem;
 }
 
 .zomatoContainer{
@@ -626,4 +627,94 @@ hr{
     font-size: 0.9rem;
     color: white;
 }
+.maindiv{
+   height: 100vh; 
+   width: 98.7vw;
+   /* border: 2px solid red; */
+}
+.secondsection{
+    height: 60vh;
+    width: 98vw;
+    /* border: 2px solid purple; */
+    display: flex;
+    margin-top: 3rem;
+}
+.section1{
+    height:60vh ;
+    width: 49vw;
+    /* border: 2px solid green; */
+    /* text-align: center;
+    align-content: center; */
+}
+.section2{
+    height:60vh ;
+    width: 49vw;
+    /* border: 2px solid aqua; */
+    text-align: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+.abouth1{
+    margin-left: 2rem;
+    /* margin-top: 2rem; */
+    font-size: 2.5rem;
+    font-family: Poppins;
+    color: #0cc0df;
+    
+}
+.section1 p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    letter-spacing: 0.6px;
+    font-family: Poppins;
+    color: black;
+}
+.section2 img{
+ width: 40rem;
+ height: 23rem;
+ border-radius: 1rem;
+}
+.login2{
+    background-color: #0cc0df   ;
+    width: 230px;
+    height: 39px;
+    display: flex;
+    /* font-size: 0.5rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: black;
+    margin-top: 75px;
+    font-family: Poppins;
+    margin-left: 30px;
+    font-weight: bold;
+  
+   
+    
+}
+.logoimg{
+    width: 100%;
+}
+.anchornew{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.content{
+    /* border: 2px solid red; */
+    height: 20rem;
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+    align-content: center;
+    font-family: Poppins;
+  
+  
+  
+}
+.abouth21{
+
+
+}
+
 
