@@ -64,10 +64,9 @@
     font-weight: bold;
 }
 video{
-    height: 400px;
-    width: 489px;
-    /* border: none;
-    background-color: white; */
+    height: 480px;
+    width: 480px;
+    border: none;
 }
 .login:hover{
     background-color: white;
