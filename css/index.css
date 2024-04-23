@@ -153,6 +153,7 @@ video{
     color: white;
 }
 
+
 .innerlist3{
     width: 60rem;
     height: 11rem;
@@ -449,26 +450,29 @@ video{
     margin: auto;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 13px;
     row-gap: 30px;
+    margin-left: 1.8rem;
 }
 
 .cardCont .card{
-    height: 60vh;
+    height: 50vh;
     border: 1px solid black;
     border-radius: 30px;
     position: relative;
+    width: 23vw;
+  
 }
 .card .bar{
-    width: 230px;
+    width: 100px;
     height: 40px;
     border: 1px solid black;
     margin-top: 20px;
     border-radius: 30px;
     position: absolute;
     top: -40px;
-    left: 130px;
+    left: 97px;
     display: flex;
     justify-content: center;
     align-items: center;
