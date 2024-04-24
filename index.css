@@ -67,13 +67,14 @@ video{
     height: 480px;
     width: 480px;
     border: none;
+    margin-top: -2rem;
 }
 .login:hover{
     background-color: white;
     color: #0cc0df;
 }
 .login2{
-    background-color: #0cc0df   ;
+ 
     width: 230px;
     height: 39px;
     display: flex;
@@ -84,37 +85,71 @@ video{
     color: black;
     margin-top: 41px;
     font-family: Poppins;
-    margin-left: 6px;
-  
-   
+    margin-left: 6px;  
+}
+.startlearning{
+    background-color: #0cc0df   ;
+    height: 39px;
+    width: 230px;
+    /* border: 2px solid; */
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    font-family: Poppins;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+}
+.h1tagnew2{
+    font-size: 1.1rem;
+    
 }
 .login2:hover {
     background-color: black;
     color: white;
 
 }
-.login2 .h1tagnew{
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-.anchorlearning{
+.anchorlearn{
     text-decoration: none;
     color: black;
-    width: 300px;
-    height: 35px;
+   
+}
+.startlearning:hover .anchorlearn{
+    /* background-color: black; */
+    color: white;
+}
+.startlearning:hover{
+    background-color: black;
+}
+
+/* .login2 .h1tagnew{
+    font-size: 1.1rem;
+    font-weight: 500;
+} */
+/* .anchorlearning{
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 30px;
     border-radius: 30px;
     font-weight: bold;
-}
+    font-size: 1rem;
+    margin-top: -8rem;
+ 
+
+    /* position: relative; */
+
+
+
 
 
 .home{
     width: 90px;
     padding: 10px;
     position: relative;
-    /* font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal; */
-   
     font-weight: bold;
     border-bottom: 2px solid black;
     /* border: 1px solid white; */
@@ -124,6 +159,9 @@ video{
     color: white;
     
 } 
+.home:hover .anchorhome{
+    color: white;
+}
 .anchorhome{
     text-decoration: none;
     color: #0cc0df;
@@ -146,6 +184,9 @@ video{
     text-decoration: none;
     color: #0cc0df;
 }
+.about:hover .anchorabout{
+    color: white;
+}
  
 .services{
     width: 125px;
@@ -156,8 +197,12 @@ video{
 }
 .services:hover{
     border-bottom: 2px solid #0cc0df;
+    /* color: white; */
+}
+.services:hover .serviceanchor{
     color: white;
 }
+
 
 
 .innerlist3{
@@ -305,6 +350,10 @@ video{
     border-bottom: 2px solid #0cc0df;
     color: white;
 }
+.notes:hover .anchorfree{
+    color: white;
+}
+
 .notes .innerlist4{
     width: 15rem;
     height: 10rem;
@@ -320,7 +369,7 @@ video{
    
 }
 .notesCont{
-    width: 80%;
+    width: 83%;
     height: 90%;
     margin: auto;
     margin-top: 6px;
@@ -348,6 +397,9 @@ video{
 {
     display: block;
 } 
+.contact:hover .anchorcontact{
+    color: white;
+}
 
 
 /* main */
@@ -411,10 +463,10 @@ video{
     display: inline-block;
     /* margin: 50px; */
 }
-.card img{
+/* .card img{
     width: 100%;
     height: 100%;
-}
+} */
 .card .img-top {
     display: none;
     position: absolute;
@@ -471,6 +523,9 @@ video{
     box-shadow: 0 4px 20px rgba(0,0,0,.3);
   
 }
+.card:hover{
+    box-shadow: 0 4px 20px #0cc0df;
+}
 .card .bar{
     width: 100px;
     height: 40px;
@@ -480,13 +535,68 @@ video{
     border-radius: 30px;
     position: absolute;
     top: -40px;
-    left: 97px;
+    left: 101px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F3F5FD;
 }
-
+.cardimg1{
+    margin-top: 1.2rem;  
+     height: 28vh; 
+     width: 60%;
+       border-radius: 30px; 
+    margin-left: 4rem; 
+}
+.cardimg2{
+    height: 28vh; 
+    width: 80%;
+      border-radius: 30px;
+        margin-left: 2rem;
+}
+.cardimg3{
+    margin-top: 2.1rem;  
+         height: 20vh;
+          width: 60%; 
+            border-radius: 30px; 
+             margin-left: 4rem;
+}
+.card .carddiv1{
+    height: 18.5vh;
+     width: 16.5vw; 
+     border-radius: 30px;
+      text-align: justify; 
+      align-content: center;
+       margin: auto; 
+        font-family: Poppins;
+        font-size: 0.95rem;
+        margin-top: -1.1rem;
+        /* border: 2px solid; */
+}
+.carddiv2{
+    height: 18.5vh;
+     width: 16.5vw; 
+     border-radius: 30px;
+      margin-top: 1.1rem;
+       text-align: justify; 
+       align-content: center;
+        margin-left: 3rem;  
+        font-family: Poppins;
+        font-size: 0.95rem;
+        margin-top: -0.1rem;
+}
+.carddiv3{
+    height: 18.5vh; 
+    width: 16vw; 
+    border-radius: 30px;
+     margin-top: 2rem;
+      text-align: justify; 
+    align-content: center;
+     margin-left: 3rem; 
+      font-family: Poppins;
+      font-size: 0.95rem;
+      margin-top: 0.9rem;
+}
 
 /* footer */
 .footerContainer{

@@ -115,7 +115,7 @@ video{
     width: 90px;
     padding: 10px;
     position: relative;
-    font-weight: bold;
+    font-weight: bolder;
     border-bottom: 2px solid black;
     /* border: 1px solid white; */
 }
@@ -127,6 +127,8 @@ video{
 .anchorhome{
     text-decoration: none;
     color: #0cc0df;
+    
+   
 }
 .about{
     width: 90px;
