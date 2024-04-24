@@ -4,9 +4,7 @@
     box-sizing: border-box;
     
 }
-.tabicon{
-    border-radius: 30px;
-}
+
 @font-face {
     font-family: Poppins;
     src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&family=Sansita:ital@1&display=swap");
@@ -77,7 +75,7 @@ video{
     color: #0cc0df;
 }
 .login2{
-    background-color: #0cc0df   ;
+    background-color: white;
     width: 230px;
     height: 39px;
     display: flex;
@@ -89,17 +87,20 @@ video{
     margin-top: 41px;
     font-family: Poppins;
     margin-left: 6px;
+    border: 1px solid #0cc0df;
   
    
 }
-.login2 .anchorlearning:hover{
+
+/* .login2:hover{
     background-color: black;
     color: white;
 
-}
+} */
 .login2 .h1tagnew{
     font-size: 1.1rem;
     font-weight: 500;
+  
 }
 .anchorlearning{
     text-decoration: none;
@@ -317,7 +318,7 @@ video{
    
 }
 .notesCont{
-    width: 80%;
+    width: 83%;
     height: 90%;
     margin: auto;
     margin-top: 6px;
@@ -490,7 +491,7 @@ video{
     width: 100%;
     color: #0cc0df;
     font-family: Poppins;
-    margin-top: 40rem;
+    margin-top: 49rem;
 }
 
 .zomatoContainer{
@@ -630,7 +631,7 @@ hr{
     margin: auto;
 }
 .lastPara{
-    padding: 2% 0; 
+    padding: 2% ; 
     width: 82%;
     margin: auto;
     font-size: 0.9rem;
@@ -652,20 +653,112 @@ hr{
     column-gap: 1.1rem;
 }
 .section1{
-    height:58vh ;
-    width: 49vw;
+    height:57vh;
+    width: 61vw;
     text-align: justify;
     /* border: 0.1px solid black; */
     /* text-align: center; */
     align-content: center;
-    margin-top: 0.3rem;
+    margin-top: -3.5rem;
     display: grid;
     grid-template-rows: auto auto auto;
     /* justify-content: space-around; */
-    box-shadow: 0 1px 20px pink;
+    box-shadow: 0 1px 20px black ;
     border-radius: 1rem;
+    margin-left: 1.8rem;
+   
    
 }
+.section1:hover{
+    box-shadow:  0 1px 20px #0cc0df ;
+}
+
+.section1 .list1{
+    height: 9vh;
+    width: 49vw;
+    /* border: 2px solid red; */
+    margin-left: -0.8rem;
+    margin-top: -8rem;
+    align-content: center;
+    text-align: justify;
+    box-shadow: 0 1px 14px black ;
+    border-radius: 1rem;
+    
+}
+.list1 .ul1{
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    height: 9vh;
+    width: 45vw;
+   align-content: center;
+   margin-left: -0.6rem;
+
+}
+.section1 .list2{
+    height: 9vh;
+    width: 49vw;
+    /* border: 2px solid red; */
+    margin-left: -0.9rem;
+    margin-top: -2.1rem;
+    align-content: center;
+    text-align: justify;
+    box-shadow: 0 1px 14px black ;
+    border-radius: 1rem;
+    
+}
+.list2 .ul2{
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    height: 9vh;
+    width: 45vw;
+   align-content: center;
+   margin-left: -0.6rem;
+
+}
+.section1 .list3{
+    height: 9vh;
+    width: 49vw;
+    /* border: 2px solid red; */
+     margin-left: -0.9rem;
+     margin-top: 2rem; 
+    align-content: center;
+    text-align: justify;
+    box-shadow: 0 1px 14px black ;
+    border-radius: 1rem;
+    
+}
+.list3 .ul3{
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    height: 9vh;
+    width: 45vw;
+   align-content: center;
+   margin-left: -0.6rem;
+
+}
+.section1 .list4{
+    height: 9vh;
+    width: 49vw;
+    /* border: 2px solid red; */
+     margin-left: -0.9rem;
+     margin-top: 2rem; 
+    align-content: center;
+    text-align: justify;
+    box-shadow: 0 1px 14px black ;
+    border-radius: 1rem;
+    
+}
+.list4 .ul4{
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    height: 9vh;
+    width: 45vw;
+   align-content: center;
+   margin-left: -0.6rem;
+
+}
+
+
 .section2{
     height:60vh ;
     width: 49vw;
@@ -673,19 +766,25 @@ hr{
     text-align: center;
     align-content: center;
     border-radius: 1rem;
+    margin-top: -4rem;
+    margin-left: 2rem;
+    
 }
 .abouth1{
-    margin-left: 2rem;
-    /* margin-top: 2rem; */
+    margin-left: 6.8rem;
+    
     font-size: 2.5rem;
     font-family: Poppins;
     color: #0cc0df;
-    margin-top: 1rem;
+    margin-top: 4rem;
     /* border: 2px solid red; */
     height: 10px;
     width: 183px;
     text-align: center;
     align-content: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal
     
     
 }
@@ -693,18 +792,21 @@ hr{
     color: black;
 }
 
-.section1 p{
-    margin-left: 2rem;
+.section1 ul{
+    margin-left: 2.8rem;
     margin-top: 2rem;
     
     font-family: Poppins;
     color: black;
-    width: 467px;
+    width: 503px;
 }
 .section2 img{
- width: 33rem;
+ width: 30rem;
  height: 23rem;
  border-radius: 1rem;
+ margin-top: -0.3rem;
+ margin-left: -1.2rem;
+ 
 }
 .login2{
     background-color: #0cc0df   ;
