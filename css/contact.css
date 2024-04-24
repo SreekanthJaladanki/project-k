@@ -112,7 +112,7 @@ video{
     width: 90px;
     padding: 10px;
     position: relative;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-bottom: 2px solid black;
     /* border: 1px solid white; */
 }
@@ -625,5 +625,8 @@ hr{
     margin: auto;
     font-size: 0.9rem;
     color: white;
+}
+.logoimg{
+    width: 100%;
 }
 
