@@ -27,6 +27,7 @@
     color: #0cc0df;
     letter-spacing: 0.1rem;
 }
+
 .first{
     width: 33%;
     height: 74px;
@@ -42,11 +43,10 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .logo img{
     width: 100%;
 }
-
-
 
 .login{
     background-color: #0cc0df   ;
@@ -59,6 +59,7 @@
     border-radius: 30px;
     color: black;
 }
+
 .login:hover{
     background-color: white;
     color: #0cc0df;
