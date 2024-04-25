@@ -47,23 +47,68 @@
 .logo img{
     width: 100%;
 }
+.anchorlogo{
+    text-decoration: none;
+}
 
 .login{
     background-color: #0cc0df   ;
-    width: 80px;
+    width: 89px;
     height: 35px;
     display: flex;
-    font-size: 0.9rem;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     color: black;
+    font-weight: bold;
+}
+video{
+    height: 400px;
+    width: 489px;
+    /* border: none;
+    background-color: white; */
 }
 
 .login:hover{
     background-color: white;
     color: #0cc0df;
 }
+.login2{
+    background-color: #0cc0df   ;
+    width: 230px;
+    height: 39px;
+    display: flex;
+    /* font-size: 0.5rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: black;
+    margin-top: 41px;
+    font-family: Poppins;
+    margin-left: 6px;
+  
+   
+}
+.login2 .anchorlearning:hover{
+    background-color: black;
+    color: white;
+
+}
+.login2 .h1tagnew{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.anchorlearning{
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
 .home{
     width: 90px;
     padding: 10px;
@@ -74,8 +119,13 @@
 }
 .home:hover{
     border-bottom: 2px solid #0cc0df;
+    color: white;
     
 } 
+.anchorhome{
+    text-decoration: none;
+    color: #0cc0df;
+}
 .about{
     width: 90px;
     padding: 10px;
@@ -84,7 +134,12 @@
     border-bottom: 2px solid black;
 }
 .about:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
+}
+.anchorabout{
+    text-decoration: none;
+    color: #0cc0df;
 }
  
 .services{
@@ -95,11 +150,12 @@
     border-bottom: 2px solid black;
 }
 .services:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 .innerlist3{
     width: 60rem;
-    height: 20rem;
+    height: 11rem;
     left: -205px;
     position: absolute;
     top: 50px;
@@ -123,29 +179,81 @@
     width: 190px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -40px;
+   
+}
+.anchoramazon{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    
+  
+   
+}
+.anchor1{
+    text-decoration: none;
+    color: black;
 }
 .listSect{
     list-style-position: inside;
-    margin-left: 20px;
+    margin-left: 19px;
     margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 265px;
 }
+
 .Microsoft{
     display: flex;
     width: 220px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -50px;
+}
+.anchormicro{
+    text-decoration: none;
+    color: black;
+}
+.anchor2{
+    text-decoration: none;
+    color: black;
 }
 .google{
     display: flex;
     width: 195px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -39px;
+}
+.anchorgoogle{
+    text-decoration: none;
+    color: black;
+}
+.anchor3{
+    text-decoration: none;
+    color: black;
 }
 .iaac{
     display: flex;
     width: 95px;
     justify-content: space-between;
     align-items: center;
+    margin-left: -15px;
+}
+.anchoriaac{
+    text-decoration: none;
+    color: black;
+    margin-left: -60px;
+}
+.anchor4{
+    text-decoration: none;
+    color: black;
+  
+}
+.heading{
+    font-size: 0.9rem;
+   
+
 }
 
 .services:hover .innerlist3
@@ -170,7 +278,12 @@
     font-weight: bold;
 }
 .contact:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
+}
+.anchorcontact{
+    color:#0cc0df ;
+    text-decoration: none;
 }
 
 .notes{
@@ -182,7 +295,8 @@
     font-weight: bold;
 }
 .notes:hover{
-    border-bottom: 2px solid #0cc0df;;
+    border-bottom: 2px solid #0cc0df;
+    color: white;
 }
 .notes .innerlist4{
     width: 15rem;
@@ -195,23 +309,31 @@
     background-color: #fff;
     border-radius: 4px;
     z-index: 10;
+    margin-left: 45px;
+   
 }
 .notesCont{
     width: 80%;
     height: 90%;
     margin: auto;
     margin-top: 6px;
+   
+   
 }
 .notesCont ul li{
     list-style-type: none;
     height: 36px;
     /* text-align: center; */
+   
 }
 .notesCont ul li a{
     text-decoration: none;
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    color: black;
+    margin-left: 3 px;
+    
 }
 
 
@@ -238,7 +360,7 @@
     /* border: 1px solid rebeccapurple; */
 }
 .left h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .buttonCont{
     width: 85%;
@@ -246,7 +368,7 @@
     display: flex;
     justify-content: space-between;
     /* border: 2px solid ; */
-    margin-top: 30px;
+    margin-top: 32px; 
     align-items: center;
 }
 .buttonCont div{
@@ -318,7 +440,7 @@
     text-align: center;
 }
 .firstline{
-    color: #9868EF;
+    color: #0cc0df;
 }
 
 .cardCont{
@@ -505,5 +627,7 @@ hr{
     font-size: 0.9rem;
     color: white;
 }
-
+.logoimg{
+    width: 100%;
+}
 
