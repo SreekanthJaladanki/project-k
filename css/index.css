@@ -523,11 +523,11 @@ video{
     border-radius: 30px;
     position: relative;
     width: 23vw;
-    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    /* box-shadow: 0 4px 20px rgba(0,0,0,.3); */
   
 }
 .card:hover{
-    box-shadow: 0 4px 20px #0cc0df;
+    /* box-shadow: 0 4px 20px #0cc0df; */
 }
 .card .bar{
     width: 100px;
@@ -591,15 +591,15 @@ video{
 }
 .carddiv3{
     height: 18.5vh; 
-    width: 16vw; 
+    width: 16.5vw; 
     border-radius: 30px;
-     margin-top: 2rem;
+     margin-top: 1rem;
       text-align: justify; 
     align-content: center;
      margin-left: 3rem; 
       font-family: Poppins;
       font-size: 0.95rem;
-      margin-top: 0.9rem;
+     
 }
 
 /* footer */
