@@ -145,24 +145,42 @@ video{
     /* position: relative; */
 
 
-
-
-
 .home{
     width: 90px;
-    padding: 10px;
+    padding-bottom: 10px;
     position: relative;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
     /* border: 1px solid white; */
+    display: block; 
+    justify-content: center; 
+    margin-top: 20px;
 }
 .home:hover{
-    border-bottom: 2px solid #0cc0df;
+    /* border-bottom: 2px solid #0cc0df; */
     color: white;
     
 } 
 .home:hover .anchorhome{
     color: white;
+}
+
+hr{
+    width: 100%;
+    /* display: none; */
+    margin-top: 10px;
+}
+div:hover hr{
+    display: block;
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+@keyframes example {
+    from {width: 0;}
+    to {width: 100%;}
+}
+.home:hover {
+    margin-top: 10px;
 }
 .anchorhome{
     text-decoration: none;
