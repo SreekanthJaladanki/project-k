@@ -874,4 +874,29 @@ hr{
 }
 .col .kloudh1{
     color: white;
+<<<<<<< HEAD
 }
+=======
+}
+.secondmain{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid ; */
+    margin-top: -530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0cc0df;
+}
+.subsecard{
+    height: 300px;
+    width: 81%;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    /* background-color: #0cc0df; */
+    background-color: white;
+}
+
+
+>>>>>>> 5e5bf324c278d0472402bac15504628fbf6b9c3b
