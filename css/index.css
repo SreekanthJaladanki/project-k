@@ -145,64 +145,80 @@ video{
     /* position: relative; */
 
 
+
+
+
 .home{
     width: 90px;
-    padding-bottom: 10px;
+    padding: 10px;
     position: relative;
     font-weight: bold;
     /* border-bottom: 2px solid black; */
     /* border: 1px solid white; */
-    display: block; 
-    justify-content: center; 
-    margin-top: 20px;
 }
 .home:hover{
     /* border-bottom: 2px solid #0cc0df; */
     color: white;
-    
+    margin-top: 15px;
 } 
 .home:hover .anchorhome{
     color: white;
 }
-
-hr{
-    width: 100%;
-    /* display: none; */
-    margin-top: 10px;
-}
-div:hover hr{
-    display: block;
-    animation-name: example;
-    animation-duration: 0.5s;
-}
-@keyframes example {
-    from {width: 0;}
-    to {width: 100%;}
-}
-.home:hover {
-    margin-top: 10px;
-}
 .anchorhome{
     text-decoration: none;
     color: #0cc0df;
-    /* font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home hr{
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid #0cc0df;
+    display: none;
+}
+.home:hover hr{
+    display: block;
+    animation-name: underline;
+    animation-duration: 0.5s;
+}
+@keyframes underline{
+    from { width: 0;}
+    to { width: 100%;}
 }
 .about{
     width: 90px;
     padding: 10px;
     position: relative;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 .about:hover{
-    border-bottom: 2px solid #0cc0df;
+    /* border-bottom: 2px solid #0cc0df; */
     color: white;
+    margin-top: 15px;
 }
 .anchorabout{
     text-decoration: none;
     color: #0cc0df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about hr{
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid #0cc0df;
+    display: none;
+}
+.about:hover hr{
+    display: block;
+    animation-name: underline;
+    animation-duration: 0.5s;
+}
+@keyframes underline{
+    from { width: 0;}
+    to { width: 100%;}
 }
 .about:hover .anchorabout{
     color: white;
@@ -213,17 +229,38 @@ div:hover hr{
     padding: 10px;
     position: relative;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 .services:hover{
-    border-bottom: 2px solid #0cc0df;
-    /* color: white; */
+    /* border-bottom: 2px solid #0cc0df; */
+    color: white;
+    margin-top: 15px;
+}
+.serviceanchor{
+    text-decoration: none;
+    color: #0cc0df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services hr{
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid #0cc0df;
+    display: none;
+}
+.services:hover hr{
+    display: block;
+    animation-name: underline;
+    animation-duration: 0.5s;
+}
+@keyframes underline{
+    from { width: 0;}
+    to { width: 100%;}
 }
 .services:hover .serviceanchor{
     color: white;
 }
-
-
 
 .innerlist3{
     width: 66rem;
@@ -342,39 +379,89 @@ div:hover hr{
     height: 74px;
 }
 .contact{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     padding: 10px;
     align-items: center;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
     font-weight: bold;
 }
 .contact:hover{
-    border-bottom: 2px solid #0cc0df;
+    /* border-bottom: 2px solid #0cc0df; */
     color: white;
+    margin-top: 15px;
 }
 .anchorcontact{
     color:#0cc0df ;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact hr{
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid #0cc0df;
+    display: none;
+}
+.contact:hover hr{
+    display: block;
+    animation-name: underline;
+    animation-duration: 0.5s;
+}
+@keyframes underline{
+    from { width: 0;}
+    to { width: 100%;}
 }
 
+
+
+
+
+
+
 .notes{
-    display: flex;
     justify-content: center;
     padding: 10px;
     align-items: center;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
     font-weight: bold;
-    width: 13rem;
-    /* border: 2px solid white; */
 }
 .notes:hover{
-    border-bottom: 2px solid #0cc0df;
     color: white;
+    margin-top: 15px;
 }
 .notes:hover .anchorfree{
     color: white;
 }
+
+.anchorfree{
+    color:#0cc0df ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notes hr{
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid #0cc0df;
+    display: none;
+}
+.notes:hover hr{
+    display: block;
+    animation-name: underline;
+    animation-duration: 0.5s;
+}
+@keyframes underline{
+    from { width: 0;}
+    to { width: 100%;}
+}
+.notes:hover .anchorfree{
+    color: white;
+}
+
+
 
 .notes .innerlist4{
     width: 15rem;
@@ -423,6 +510,7 @@ div:hover hr{
 .contact:hover .anchorcontact{
     color: white;
 }
+
 
 
 /* main */
@@ -787,6 +875,7 @@ hr{
 .col .kloudh1{
     color: white;
 }
+
 .secondmain{
     height: 400px;
     width: 100%;
