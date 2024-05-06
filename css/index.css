@@ -606,6 +606,11 @@ video{
     font-family: serif;
     text-align: center;
 }
+.card img{
+    /* width: 30%;
+    height: 30%; */
+    border: 1px solid;
+}
 
 .prev-btn,
 .next-btn {
@@ -614,7 +619,7 @@ video{
   transform: translateY(-50%);
   font-size: 2.5rem;
   border-color: white;
-  color: gainsboro;
+  color: #0cc0df;
 }
 
 .prev-btn {
@@ -752,7 +757,7 @@ video{
     font-family: Poppins;
 }
 
-.zomatoContainer{
+.Container{
     padding: 3% 0;
     width: 82%;
     display: flex;
@@ -760,12 +765,12 @@ video{
     margin: auto;
     align-items: center;
 }
-.zomatoContainer .zomatologo{
+.Container .projectlogo{
     width: 75%;
     /* border: 1px solid; */
 }
 
-.zomatoContainer .footerLogo{
+.Container .footerLogo{
     width: 20%;
     /* border: 1px solid; */
 }
@@ -774,7 +779,7 @@ video{
     width: 100%;
 
 }
-.zomatoContainer .zomatoFlagBtn{
+.Container .zomatoFlagBtn{
     border: 1px solid white;
     /* color: #B5B5B5; */
     border-radius: 5px;
@@ -784,7 +789,7 @@ video{
     height: 6vh;
     align-items: center;
 }
-.zomatoContainer .zomatoEnglishBtn{
+.Container .zomatoEnglishBtn{
     border: 1px solid white;
     /* color: #B5B5B5; */
     border-radius: 5px;
