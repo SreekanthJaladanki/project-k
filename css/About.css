@@ -308,8 +308,8 @@ video{
     height: 10rem;
     left: 790px;
     position: absolute;
-    top: 65px;
-    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    top: 64px;
+    box-shadow: 0 4px 20px  black;
     display: none;
     background-color: #fff;
     border-radius: 4px;
@@ -771,7 +771,7 @@ hr{
     
 }
 .abouth1{
-    margin-left: 6.8rem;
+    margin-left: 37rem;
     
     font-size: 2.5rem;
     font-family: Poppins;
@@ -782,9 +782,10 @@ hr{
     width: 183px;
     text-align: center;
     align-content: center;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal
+    
+    font-weight: 600;
+    font-style: normal;
+
     
     
 }
@@ -848,11 +849,12 @@ hr{
  
 }
 .abouth2{
-    margin-left: 27rem;
+    margin-left: 30rem;
     color: #0cc0df;
     font-size: 2.5rem;
     /* margin: auto; */
     font-family: Poppins;
+    font-weight: 600;
 
 }
  .para{
@@ -883,6 +885,11 @@ font-family: Poppins;
     position: relative;
     width: 27.5vw;
   
+}
+@media (max-width: 500px)
+{
+
+
 }
 
 
