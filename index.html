@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&family=Sansita:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="navbar">
         <nav class="nav">
             <section class="first">
                <div class="home">
@@ -119,6 +119,20 @@
             <div><a class="anchorhome" href="./contact.html" > Contact</a> </div>
         </div>
     </header>
+
+
+    <script>
+        function changeBg(){
+            var navbar=document.getElementById('navbar');
+            var scrollvalue = window.scrollY;
+            if( scrollvalue < 100){
+                navbar.classList.remove('bgcolor');
+            }
+            else{
+                header.classList.add('bgcolor');
+            }
+        }
+    </script>
 
 
    <!-- main section -->
