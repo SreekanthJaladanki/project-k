@@ -717,14 +717,29 @@ video{
     background-color: #fff;
     align-content: center;
 }
-.card .img_cont{
+ .img_cont{
     /* margin-left: 80px; */
-    margin: auto;
+    /* margin: auto; */
     margin-top: 20px;
-    width: 150px;
-    width: 150px;
+    width: 150px; 
+    /* border: 2px solid white; */
+    text-align: center;
+   
+ 
     /* border: 1px solid; */
 }
+.footerContainer .img_cont_anchor4{
+margin-left: -2.6rem;
+}
+.footerContainer .img_cont_anchor2{
+    margin-left: -2rem;
+    }
+    .footerContainer .img_cont_anchor3{
+        margin-left: -2.6rem;
+        }
+        .footerContainer .img_cont_anchor4{
+            margin-left: -5rem;
+            }
 
 .cardCont .card:hover{
     box-shadow: 0 4px 20px #0cc0df;
@@ -821,6 +836,8 @@ video{
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    margin-top: -7rem;
+    /* border: 2px solid red; */
 }
 .Container .projectlogo{
     width: 75%;
@@ -829,12 +846,25 @@ video{
 
 .Container .footerLogo{
     width: 20%;
-    /* border: 1px solid; */
+    /* border: 1px solid white; */
+   
 }
+
 .logoimg{
     
-    width: 100%;
+    width: 22%;
+    margin-left: 32rem;
+    /* border: 2px solid white; */
+  margin-top: 3rem;
+   
+   
 
+}
+.col{
+    margin-left: 54rem;
+    margin-top: 8rem;
+    /* border: 2px solid red; */
+    
 }
 .Container .zomatoFlagBtn{
     border: 1px solid white;
@@ -863,11 +893,12 @@ video{
 
 .footerListContainer{
     /* padding: 2%; */
-    width: 82%;
-    margin: auto;
+    width: 40%;
+    margin-left: 7.4rem;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3%;
+   margin-top: -10rem;
+    /* border: 2px solid red; */
 }
 .footerListContainer .col ul{
     list-style-type: none;
@@ -877,6 +908,34 @@ video{
     font-weight: 500;
     margin-bottom: 10%;
 }
+.footerListContainer .cardimg1{
+   
+   height: 6rem;
+   width: 6rem;
+   border-radius: 0.7rem;
+  
+   
+}
+.footerListContainer .cardimg2{
+    margin-left: 1.1rem;
+    height: 6rem;
+   width: 6rem; border-radius: 0.7rem;
+   
+}
+.footerListContainer .cardimg3{
+    margin-left: 1.1rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+   
+}
+.footerListContainer .cardimg4{
+    margin-left: 3rem;
+    height: 6rem;
+   width: 6rem;
+   border-radius: 0.7rem;
+    
+}
 
 .col ul li{
     font-size: 1.4rem;
@@ -885,13 +944,22 @@ video{
     font-size: 0.9rem;
 }
 .col h1{
-    font-size: large;
+    font-size: 1.2rem;
+    /* border: 2px solid white; */
+    width: 13rem;
+  
+  
 }
 .col .socialMedia{
-    width: 120%;
+    width: 110%;
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    /* border: 2px solid white; */
+}
+.socialMedia a{
+    font-size: 2rem;
+   
 }
 .col .socialMedia div{
     background: black;
