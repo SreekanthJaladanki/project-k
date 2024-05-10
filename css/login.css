@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&family=Sansita:ital@1&display=swap");
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+.mainCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+}
+
+.innerCont{
+    margin: auto;
+    width: 380px;
+    height: 400px;
+    background-color: #0cbfdfb6;
+    border-radius: 150px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 80%;
+    height: 80%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+input{
+    margin-top: 20px;
+    width: 80%;
+    height: 35px;
+    /* border: 2px solid; */
+    border-radius: 30px;
+    margin-left: 10%; 
+    border: none;
+}
+
+.forgotPassword{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.forgotPassword:hover{
+    text-decoration: underline;
+}
+
+.form div{
+    /* border: 1px solid; */
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+.button{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 55%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: black;
+    color: #0cc0df;
+    font-weight: 700;
+    font-size: medium;
+    align-content: center;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: #0cc0df;
+}
+
+.Register{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.Register a{
+    color: red;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.Register a:hover{
+    text-decoration: underline;
+}
