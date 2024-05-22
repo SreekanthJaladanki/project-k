@@ -119,20 +119,22 @@
             <div><a class="anchorhome" href="./contact.html" > Contact</a> </div>
         </div>
     </header>
+    <div style="width: 100%; height: 3px; background-color: #0cc0df;"></div>
 
 
-    <script>
+    <!-- <script>
         function changeBg(){
-            var navbar=document.getElementById('navbar');
-            var scrollvalue = window.scrollY;
-            if( scrollvalue < 100){
-                navbar.classList.remove('bgcolor');
-            }
-            else{
-                header.classList.add('bgcolor');
+            var navbar = document.getElementById('navbar');
+            var scrollValue = window.scrollY;
+            if(scrollValue<540){
+                navbar.classList.remove('bgcolor')
+            }else{
+                navbar.classList.add('bgcolor');
             }
         }
-    </script>
+
+        window.addEventListener('scroll',changeBg);
+    </script> -->
 
 
    <!-- main section -->
@@ -217,8 +219,9 @@
             <i class="fa-solid fa-angle-right"></i>
         </div>
     </section>
-    <!-- second main section -->
 
+
+    <!-- second main section -->
     <section class="secondmain"><div class="subsecard"> <img src="https://t4.ftcdn.net/jpg/03/96/98/33/360_F_396983381_AcuGFHQbNn7D9eercXFpOecN7d7B5F66.jpg" alt="">
     <ul>
         <li>AWS provides a set of flexible services designed to enable companies to more rapidly and reliably build and deliver products using AWS and DevOps practices.</li>
@@ -235,71 +238,35 @@
 
 
      <!-- Footer  -->
-     <section class="footerContainer">
-        <section class="Container">
-            <div class="projectlogo">
-                <div class="footerLogo">
-                    <img class="logoimg" src="./assets/logo2.png" alt="logo">
-                </div>
+    <section class="footerContainer">
+        <div class="projectlogo">
+            <div class="footerLogo">
+                <img class="logoimg" src="./assets/logo2.png" alt="logo">
             </div>
+        </div>
+        <section class="Container">
+           
             <section class="col">
                 <h1>SOCIAL LINKS</h1>
                 <div class="socialMedia">
-                    <div title="linkedin"><a  href="https://www.google.com/search?q=linkedin+-in+login&sca_esv=a037c01116b240b0&rlz=1C1DVJR_enIN830IN830&ei=g0QnZq-rHrXhse"><i class="fa-brands fa-linkedin-in" style="color: white;"></i></a></div>
-                    <div title="Instagram"> <a  href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: white;"></i></a></div>
-                    <div title="Twitter"> <a  href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter" style="color: white;"></i></a></div>
-                    <div title="Youtube"> <a  href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: white;"></i></a></div>
-                    <div title="Facebook"> <a  href="https://en-gb.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: white;"></i></a></div>
+                    <div title="linkedin" ><a  href="https://www.google.com/search?q=linkedin+-in+login&sca_esv=a037c01116b240b0&rlz=1C1DVJR_enIN830IN830&ei=g0QnZq-rHrXhse" ><i id="linkedin" class="fa-brands fa-linkedin-in" "></i></a></div>
+                    <div title="Instagram"> <a  href="https://www.instagram.com/"><i id="Instagram" class="fa-brands fa-instagram"></i></a></div>
+                    <div title="Twitter"> <a  href="https://twitter.com/i/flow/login"><i id="Twitter" class="fa-brands fa-twitter"></i></a></div>
+                    <div title="Youtube"> <a  href="https://www.youtube.com/"><i id="Youtube" class="fa-brands fa-youtube"></i></a></div>
+                    <div title="Facebook"> <a  href="https://en-gb.facebook.com/"><i id="Facebook" class="fa-brands fa-facebook-f"></i></a></div>
                 </div> </section>
         </section>
 
         <section class="footerListContainer">
-                <section class="col">
-                    <h1 class="kloudh1">ABOUT KloudXplorer</h1>
-                    <ul>
-                        <li>Who We Are</li>
-                        <li>Blogs</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </section>
-                <section class="col">
-                    <h1 class="kloudh1">Amazon AWS</h1>
-                    <ul>
-                        <li>Who We Are</li>
-                        <li>Blog</li>
-                        <li>Work With Us</li>
-                        <li>Investor Relations</li>
-                        <li>Report Fraud</li>
-                    </ul>
-                </section>
-                <section class="col">
-                    <h1 class="kloudh1">Microsoft Azure</h1>
-                    <ul>
-                        <li>Who We Are</li>
-                        <li>Blog</li>
-                    </ul>
-                </section>
-                <section class="col">
-                    <h1 class="kloudh1"> Google Cloud</h1>
-                    <ul>
-                        <li>Who We Are</li>
-                        <li>Blog</li>
-                        <li>Work With Us</li>
-                        <li>Investor Relations</li>
-                    </ul>
-                </section>
-                <section class="col">
-                    <h1 class="kloudh1">Iaac</h1>
-                    <ul>
-                        <li>Who We Are</li>
-                        <li>Blog</li>
-                        <li>Work With Us</li>
-                        <li>Investor Relations</li>
-                    </ul>
-                </section>
-    
+                
+        <!-- All the logos -->
+        
+            <div class="img_cont" > <a href="" class="img_cont_anchor1"><img class="cardimg1" src="./assets/aws_logo.png" alt="" ></a></div>
+            <div class="img_cont"> <a href="" class="img_cont_anchor2"><img  class="cardimg2" src="./assets/azure_logo.png" alt=""></a></div>
+            <div class="img_cont"> <a href="" class="img_cont_anchor3"><img class="cardimg3" src="./assets/gcp_logo.png" alt="" ></a></div>
+            <div class="img_cont"> <a href="" class="img_cont_anchor4"><img class="cardimg4" src="./assets/Iaac.png" alt="" ></a></div>                    
         </section>
-    
+        <br>  <br>
         <hr>
         <div class="lastPara">
             <p>By continuing past this page, you agree to our Terms of services, cookies Policy, Privarcy Policy and content Policies. All trademarks are prepared of their respective owner. 2008-2024 Privarcy Policy and content Policies. </p>
@@ -308,35 +275,31 @@
 
 
 
-
-
-
-
+<!-- carousel Movement -->
     <script>
         const carousel = document.querySelector('.carousel');
-const carouselInner = document.querySelector('.cardCont');
-const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
+        const carouselInner = document.querySelector('.cardCont');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
 
-let index = 0;
+        let index = 0;
 
-nextBtn.addEventListener('click', () => {
-  index = Math.min(index + 1, carouselInner.children.length - 1);
-  updateCarousel();
-});
+        nextBtn.addEventListener('click', () => {
+        index = Math.min(index + 1, carouselInner.children.length - 1);
+        updateCarousel();
+        });
 
-prevBtn.addEventListener('click', () => {
-  index = Math.max(index - 1, 0);
-  updateCarousel();
-});
+        prevBtn.addEventListener('click', () => {
+        index = Math.max(index - 1, 0);
+        updateCarousel();
+        });
 
-function updateCarousel() {
-  const itemWidth = carouselInner.children[0].offsetWidth;
-  const offset = -index * (itemWidth + 10); // 10 is the margin-right from CSS
-  carouselInner.style.transform = `translateX(${offset}px)`;
-}
-
-      </script>
+        function updateCarousel() {
+        const itemWidth = carouselInner.children[0].offsetWidth;
+        const offset = -index * (itemWidth + 10); // 10 is the margin-right from CSS
+        carouselInner.style.transform = `translateX(${offset}px)`;
+        }
+    </script>
     
 </body>
 </html>
