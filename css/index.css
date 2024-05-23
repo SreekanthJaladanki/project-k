@@ -11,7 +11,7 @@
 }
 .header{
     width: 100%;
-    height: 75px;
+    height: 4.688rem;
     background-color: black;
     position: sticky;
     top: 0;
@@ -24,7 +24,7 @@
 .nav{
     width: 90%;
     margin: auto;
-    height: 85px;
+    height: 5.313rem;
     display: flex;
     justify-content: space-between;
     font-family: Poppins;
@@ -33,15 +33,15 @@
 }
 .first{
     width: 33%;
-    height: 74px;
+    height: 4.625rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo{
-    width: 200px;
-    height: 74px;
+    width: 12.5rem;
+    height: 4.625rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,13 +57,13 @@
 
 .login{
     background-color: #0cc0df   ;
-    width: 89px;
-    height: 35px;
+    width: 5.563rem;
+    height: 2.188rem;
     display: flex;
     font-size: 1rem;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     
 }
 .login a{
@@ -73,8 +73,8 @@
     text-decoration: none;
 }
 video{
-    height: 480px;
-    width: 480px;
+    height:30rem;
+    width: 30rem;
     border: none;
     margin-top: -2rem;
 }
@@ -88,8 +88,8 @@ video{
 }
 .login2{
  
-    width: 230px;
-    height: 39px;
+    width: 15.625rem;
+    height: 2.438rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,8 +101,8 @@ video{
 }
 .startlearning{
     background-color: #0cc0df   ;
-    height: 39px;
-    width: 230px;
+    height: 2.438rem;
+    width: 14.375rem;
     border-radius: 30px;
     color: black;
     display: flex;
@@ -539,7 +539,7 @@ video{
     width: 90%;
     height: 70vh;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 5.625rem;
     display: flex;
 }
 .left{
@@ -551,14 +551,14 @@ video{
 }
 .buttonCont{
     width: 85%;
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     margin-top: 32px; 
     align-items: center;
 }
 .buttonCont div{
-    height: 30px;
+    height: 1.875rem;
     border: 1px solid #0cc0df;
     padding: 18px 28px 18px 28px;
     display: flex;
@@ -631,7 +631,7 @@ video{
     width: 100%;
     max-width: 93%;
     margin: auto;
-    margin-top: -20px;
+    margin-top: -1.25rem;
     overflow: hidden;
     border-radius: 10px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
@@ -654,24 +654,24 @@ video{
 
 .cardCont {
     width: 100%;
-    height: 390px;
+    height: 24.375rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #F3F5FD;
     border-radius: 10px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .cardCont .card{
-    margin-left: 15px;
+    margin-left: 0.938rem;
     width: 23%; 
     height: 100%;
     flex: 0 0 auto;
-    margin-right: 5px;
+    margin-right: 0.313rem;
     /* margin-left:-12px; */
     height: 50vh;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     position: relative;
     box-shadow: 0 4px 20px rgba(0,0,0,.3);
     background-color: #fff;
@@ -681,9 +681,8 @@ video{
 
 .card .img_cont{
     margin: auto;
-    margin-top: 20px;
-    width: 150px;
-    width: 150px;
+    margin-top: 1.25rem;
+    width: 9.375rem;
 }
 
 .cardCont .card:hover{
@@ -691,29 +690,29 @@ video{
     transform: scale(1.05);
 }
 .card .bar{
-    width: 150px;
-    height: 40px;
+    width: 9.375rem;
+    height: 2.5rem;
     border: 1px solid #0cc0df; 
     box-shadow: 0 4px 20px rgba(0,0,0,.3);
-    margin-top: 20px;
-    border-radius: 30px;
+    margin-top: 1.25rem;
+    border-radius: 1.875rem;
     position: absolute;
-    top: -40px;
-    left: 60px;
+    top: -2.5rem;
+    left: 4.375rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-family: Poppins;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #0cc0df;
 }
 
 .card .carddiv1{
     height: 18.5vh;
      width: 13vw; 
-     border-radius: 30px;
+     border-radius: 1.875rem;
       text-align: justify; 
       align-content: center;
        margin: auto; 
@@ -726,28 +725,28 @@ video{
 
 .carousel-button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.8);
+    background:none;
     border: none;
-    font-size: 24px;
+    font-size: 3rem;
     cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.625rem;
+    /* border-radius: 50%; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     z-index: 1;
-    width: 50px;
-    height: 50px;
-    border-color: white;
+    width: 3.125rem;
+    height: 3.125rem;
+    /* border-color: white; */
   color: #0cc0df;
 }
 
 .carousel-button.left {
-    left: 5px;
+    left: 0.313rem;
 }
 
 .carousel-button.right {
-    right: 5px;
+    right: -0.125rem;
 }
 
 /* footer */
